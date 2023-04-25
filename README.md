@@ -14,7 +14,7 @@ ShareCare is an Android app that makes it super easy for you to make cash & non-
 
 ## Installation
 
-- To install the app, download the [APK File](https://github.com/OrneyVortex/ShareCare/blob/1.1/app-debug.apk) and install it on your Android device.
+- To install the app, download the [APK File](https://github.com/OrneyVortex/ShareCare/blob/master/app-debug.apk) and install it on your Android device.
 ## Technologies Used
 - ShareCare is built using Android Studio and integrated with Firebase.
 - Cloud Firestore is used in this app to save and retrieve user and the donation posts data.
@@ -40,7 +40,7 @@ ShareCare is a constantly evolving platform, and we are always looking for ways 
 To use ShareCare, follow these steps:
 
 1) Clone the repository to your local machine using git:
-git clone https://github.com/UtkarshSingh5474/ShareCare.git
+https://github.com/OrneyVortex/ShareCare.git
 
 2) Open Android Studio and select "Open an existing Android Studio project". Navigate to the cloned repository directory and select it to open the project.
 
