@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnalysisActivity">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:padding="24dp"
+        android:background="@color/Primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_medium"
+            android:text="Donation Analysis"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/toggleGroup"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            app:checkedButton="@id/btnCity"
+            app:singleSelection="true">
+
+            <Button
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:id="@+id/btnCity"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="City" />
+
+            <Button
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:id="@+id/btnState"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="State" />
+            <Button
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:id="@+id/btnCountry"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Country" />
+
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+
+        <ScrollView
+            android:layout_below="@id/toggleGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_margin="22dp"
+                android:layout_below="@id/toggleGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="32dp">
+
+                <TextView
+                    android:id="@+id/chatgptOutput"
+                    android:padding="24dp"
+                    android:textSize="18sp"
+
+                    android:layout_below="@id/toggleGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:text="New York received the highest amount of cash donations at $1000, followed by Chicago at $800.
+
+Clothing is the most commonly donated item category, with a total of 115 clothing items donated across all cities.\n
+
+Toys are the second most commonly donated item category, with a total of 90 toys donated across all cities.\n
+
+Food is the third most commonly donated item category, with a total of 70 food items donated across all cities.\n
+
+Electronics is the least commonly donated item category, with a total of 60 electronics items donated across all cities.\n
+
+Chicago received donations across the most number of item categories, with donations in four different categories.\n
+
+San Antonio received the fewest number of donations, with only 20 items donated in total.\n"/>
+
+            </com.google.android.material.card.MaterialCardView>
+        </ScrollView>
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

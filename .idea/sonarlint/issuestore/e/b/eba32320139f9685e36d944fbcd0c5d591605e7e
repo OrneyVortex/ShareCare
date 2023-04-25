@@ -1,0 +1,25 @@
+
+>
+java:S1604V"(Make this anonymous inner class a lambda(Í¥‡Ÿ
+C
+java:S1604["(Make this anonymous inner class a lambda(œÁÈÌşÿÿÿÿ
+w
+java:S1450"aRemove the "imagesRecyclerView" field and declare it as a local variable in the relevant methods.(›¤…
+€
+java:S1450!"eRemove the "recommendedListAdapter" field and declare it as a local variable in the relevant methods.(ˆûµåşÿÿÿÿ
+L
+java:S2696)"6Make the enclosing method "static" or remove this set.(ûƒ²Ä
+L
+java:S26960"6Make the enclosing method "static" or remove this set.(Æ„›
+L
+java:S26961"6Make the enclosing method "static" or remove this set.(øçï
+L
+java:S26965"6Make the enclosing method "static" or remove this set.(í¯é
+Q
+java:S26968"6Make the enclosing method "static" or remove this set.(¥ê¨Âúÿÿÿÿ
+L
+java:S2696;"6Make the enclosing method "static" or remove this set.(í¯é
+>
+java:S1172F"(Remove this unused method parameter "v".(î—­
+œ
+java:S1186]"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(™Èˆèøÿÿÿÿ

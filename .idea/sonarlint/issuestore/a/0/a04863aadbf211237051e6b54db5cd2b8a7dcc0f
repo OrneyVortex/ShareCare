@@ -1,0 +1,29 @@
+
+C
+java:S16049"(Make this anonymous inner class a lambda(ÇÏÆ´ÿÿÿÿÿ
+C
+java:S1604J"(Make this anonymous inner class a lambda(‹šòıÿÿÿÿ
+>
+java:S1604P"(Make this anonymous inner class a lambda(á¸·
+C
+java:S1604D"(Make this anonymous inner class a lambda(‘ÿÍíşÿÿÿÿ
+|
+java:S1450!"fRemove the "addFloatingActionButton" field and declare it as a local variable in the relevant methods.(¦—¾²
+Q
+java:S26960"6Make the enclosing method "static" or remove this set.(¿ï¿¢üÿÿÿÿ
+Q
+java:S26961"6Make the enclosing method "static" or remove this set.(Íùô¾ÿÿÿÿÿ
+Y
+java:S1874_">Remove this use of "startActivityForResult"; it is deprecated.(©Õª€şÿÿÿÿ
+d
+java:S1874d"IRemove this use of "getExternalStoragePublicDirectory"; it is deprecated.(Åà·•ÿÿÿÿÿ
+A
+java:S1075g"&Remove this hard-coded path-delimiter.(à¤«ƒúÿÿÿÿ
+Q	java:S125h"<This block of commented-out lines of code should be removed.(ó‹Ÿÿ
+Y
+java:S1874l">Remove this use of "startActivityForResult"; it is deprecated.(Â—¶şÿÿÿÿ
+e
+java:S1874r"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ÉÎÍïıÿÿÿÿ
+m
+java:S3776r"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÉÎÍïıÿÿÿÿ
+W	java:S125†"<This block of commented-out lines of code should be removed.(ïÒ”úÿÿÿÿ

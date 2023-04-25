@@ -1,0 +1,17 @@
+
+=
+java:S1604"(Make this anonymous inner class a lambda(„Á¤\
+C
+java:S1604S"(Make this anonymous inner class a lambda(„¬é¿øÿÿÿÿ
+C
+java:S1604_"(Make this anonymous inner class a lambda(„¬é¿øÿÿÿÿ
+W
+java:S1854A"<Remove this useless assignment to local variable "response".(”ÝŠýÿÿÿÿ
+N
+java:S1854D"8Remove this useless assignment to local variable "user".(—ÓÛ
+H
+java:S1481A"-Remove this unused "response" local variable.(”ÝŠýÿÿÿÿ
+?
+java:S1481D")Remove this unused "user" local variable.(—ÓÛ
+Y
+java:S3398@">Move this method into the anonymous class declared at line 30.(†ÚÜÚýÿÿÿÿ

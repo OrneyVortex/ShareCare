@@ -1,0 +1,13 @@
+
+U
+java:S1118	":Add a private constructor to hide the implicit public one.(ƒÙâûÿÿÿÿ
+N
+java:S1874"3Remove this use of "NetworkInfo"; it is deprecated.(·ñõ³úÿÿÿÿ
+I
+java:S1905".Remove this unnecessary cast to "NetworkInfo".(·ñõ³úÿÿÿÿ
+N
+java:S1874"3Remove this use of "NetworkInfo"; it is deprecated.(·ñõ³úÿÿÿÿ
+R
+java:S1874"<Remove this use of "getActiveNetworkInfo"; it is deprecated.(²ˆ¤Ó
+I
+java:S1874"3Remove this use of "isConnected"; it is deprecated.(õê³ì
